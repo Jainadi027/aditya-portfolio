@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Code, Palette, Rocket, GraduationCap,MapPin,Mail,Phone,Download} from 'lucide-react';
 import './About.css';
 
@@ -63,41 +61,16 @@ export default function About() {
         <section className="intro-section">
           <div className="about-container">
             <div className="intro-content-full">
-              <h2 className="intro-title">Hello! I'm Alex Morgan</h2>
+              <h2 className="intro-title">Hello! I'm Aditya Jain</h2>
               <p className="intro-text">
-                I'm a full-stack developer with over 6 years of experience creating web applications 
-                that users love. My journey in tech started with a curiosity about how websites work, 
-                and it has evolved into a passion for building scalable, user-friendly applications.
+                I'm a Full Stack Developer passionate about building web applications that are both functional and visually appealing. I enjoy turning ideas into interactive digital experiences using modern web technologies.
               </p>
               <p className="intro-text">
-                I specialize in modern JavaScript frameworks, with a particular love for React and 
-                Node.js. Beyond coding, I'm passionate about clean code, design systems, and creating 
-                intuitive user experiences that solve real-world problems.
+                I specialize in React for front-end development and Node.js/Express for back-end development, with experience in databases like MongoDB and SQL. I focus on writing clean, efficient, and scalable code that delivers seamless user experiences.
               </p>
               <p className="intro-text">
-                When I'm not coding, you'll find me exploring new technologies, contributing to 
-                open-source projects, or sharing my knowledge through blog posts and mentoring.
+               I’m constantly learning new technologies and best practices to improve my skills. My goal is to create applications that not only work well but also delight users, combining performance, usability, and design.
               </p>
-
-              <div className="personal-info">
-                <div className="info-item">
-                  <MapPin size={20} />
-                  <span><strong>Location:</strong> Saharanpur,UP</span>
-                </div>
-                <div className="info-item">
-                  <Mail size={20} />
-                  <span><strong>Email:</strong> jainadi027@gmail.com</span>
-                </div>
-                <div className="info-item">
-                  <Phone size={20} />
-                  <span><strong>Phone:</strong> +91 9758835072</span>
-                </div>
-              </div>
-
-              <button className="btn-download">
-                <Download size={20} />
-                Download Resume
-              </button>
             </div>
           </div>
         </section>

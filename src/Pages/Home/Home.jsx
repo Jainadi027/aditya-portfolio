@@ -1,12 +1,22 @@
 import React from 'react';
 import Header from "../../Common/Header/Header";
 import Footer from "../../Common/Footer/Footer";
-import { Github, Linkedin, Mail, Download, Briefcase, Award, Users, Coffee } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, Twitter } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
 import profileImage from '../../assets/ProfilePhoto.jpeg';
 
 import './Home.css';
 
 export default function Home() {
+  const navigate = useNavigate();
+
+  const goToProjects = () => {
+    navigate('/projects');
+  };
+
+  const goToContact = () => {
+    navigate('/contact');
+  };
   return (
     <>
       <Header />
@@ -37,34 +47,57 @@ export default function Home() {
                     <Download size={20} />
                     Download CV
                   </button>
-                  <button className="btn btn-outline">
-                    View Projects
-                  </button>
+                  <button className="btn btn-outline" onClick={goToProjects}>
+            View Projects
+          </button>
                 </div>
 
                 <div className="social-bar">
-                  <a href="#" className="social-icon">
-                    <Github size={22} />
-                  </a>
-                  <a href="#" className="social-icon">
-                    <Linkedin size={22} />
-                  </a>
-                  <a href="#" className="social-icon">
-                    <Mail size={22} />
-                  </a>
-                </div>
-              </div>
+  <a
+    href="https://github.com/dashboard"
+    className="social-icon"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Github size={22} />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/adityajain027"
+    className="social-icon"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Linkedin size={22} />
+  </a>
+  <a
+    href="https://x.com/jainadi027"
+    className="social-icon"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Twitter size={22} />
+  </a>
+</div>
+</div>
 
               <div className="hero-image">
                 <div className="profile-card">
-                  <div className="card-glow"></div>
-                  <div className="profile-placeholder">
-                   <div className="avatar-circle">
-  <img src={profileImage} alt="Aditya Jain" className="avatar-image" />
+                  <div className="hero-image">
+  <div className="profile-wrapper">
+    
+    <div className="profile-glow"></div>
+
+    <div className="profile-border">
+      <img 
+        src={profileImage} 
+        alt="Aditya Jain" 
+        className="profile-img" 
+      />
+    </div>
+
+  </div>
 </div>
 </div>
-                 
-                </div>
               </div>
             </div>
           </div>
@@ -147,10 +180,10 @@ export default function Home() {
               <p className="cta-text">
                 Have a project in mind? Let's create something extraordinary together.
               </p>
-              <button className="btn btn-light">
-                <Mail size={20} />
-                Get In Touch
-              </button>
+              <button className="btn btn-light" onClick={goToContact}>
+            <Mail size={20} />
+            Get In Touch
+          </button>
             </div>
           </div>
         </section>

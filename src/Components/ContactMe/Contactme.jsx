@@ -16,9 +16,9 @@ export default function ContactMe() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = "service_w687v1d";
-    const templateID = "template_oot96xg";
-    const publicKey = "HmekBuC2zXJ5o3put";``````````````````````
+    const serviceID = "service_iqb9stp";
+    const templateID = "template_6r7910e";
+    const publicKey = "ItYuta8Tzs_V_HSjG";
     emailjs.send(serviceID, templateID, formData, publicKey)
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
@@ -53,7 +53,7 @@ export default function ContactMe() {
           <div className="contact-item">
             <FaLinkedin size={26} className="contact-icon" />
             <a
-              href="www.linkedin.com/in/adityajain027"
+              href="https://www.linkedin.com/in/adityajain027"
               target="_blank"
             >
              linkedin.com/in/adityajain027
@@ -62,7 +62,7 @@ export default function ContactMe() {
 
           <div className="contact-item">
             <FaGithub size={26} className="contact-icon" />
-            <a href="https://github.com/purvibatra06" target="_blank">
+            <a href="https://github.com/dashboard" target="_blank">
               github.com/purvibatra
             </a>
           </div>
