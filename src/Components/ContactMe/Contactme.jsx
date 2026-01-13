@@ -59,11 +59,10 @@ export default function ContactMe() {
              linkedin.com/in/adityajain027
             </a>
           </div>
-
           <div className="contact-item">
             <FaGithub size={26} className="contact-icon" />
             <a href="https://github.com/dashboard" target="_blank">
-              github.com/purvibatra
+              github.com/adityajain
             </a>
           </div>
 

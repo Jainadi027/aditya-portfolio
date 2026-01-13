@@ -30,6 +30,23 @@
   flex-direction: column;
   gap: 0.8rem;
 }
+/* Left - Quick Links */
+.footer-center {
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Center - Location */
+.footer-location-section {
+  align-items: center;
+  text-align: center;
+}
+
+/* Right - Connect With Me */
+.footer-right {
+  align-items: flex-end;
+  text-align: right;
+}
 
 .footer h4 {
   font-size: 1.1rem;

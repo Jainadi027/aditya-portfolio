@@ -1,5 +1,6 @@
 import "./Footer.css";
-import { FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMapMarkerAlt,FaTwitter  } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -16,17 +17,20 @@ export default function Footer() {
 
         <div className="footer-location-section">
           <h4>Location</h4>
-          <p className="footer-location"><FaMapMarkerAlt /> Yamunanagar, Haryana</p>
+          <p className="footer-location"><FaMapMarkerAlt />Saharanpur,UP</p>
         </div>
 
         <div className="footer-right">
           <h4>Connect With Me</h4>
           <div className="social-links">
-            <a href="https://github.com/purvibatra06" target="_blank">
+            <a href="https://github.com/dashboard" target="_blank">
               <FaGithub /> GitHub
             </a>
-            <a href="https://www.linkedin.com/in/purvi-batra-54b37b295" target="_blank">
+            <a href="https://www.linkedin.com/in/adityajain027" target="_blank">
               <FaLinkedin /> LinkedIn
+            </a>
+            <a href="https://x.com/jainadi027" target="_blank">
+              <FaTwitter /> LinkedIn
             </a>
           </div>
         </div>
