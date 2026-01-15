@@ -19,9 +19,9 @@ export default function Header() {
 
       <nav className={`nav-links ${isOpen ? "open" : ""}`}>
         <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
-        <Link to="/About" onClick={() => setIsOpen(false)}>About</Link>
-        <Link to="/Projects" onClick={() => setIsOpen(false)}>Projects & certificates</Link>
-        <Link to="/Contact" onClick={() => setIsOpen(false)}>Contact Me</Link>
+        <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
+        <Link to="/projects" onClick={() => setIsOpen(false)}>Projects & certificates</Link>
+        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Me</Link>
        
       </nav>
     </header>
