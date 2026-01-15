@@ -5,11 +5,11 @@ export default function About() {
   const skillCategories = [
     {
       title: 'Frontend Skills',
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React.js' ]
+      skills: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'TypeScript', 'React.js' ]
     },
     {
       title: 'Backend Skills',
-      skills: ['Node.js', 'Express.js', 'Python']
+      skills: ['Node.js', 'Express.js', 'Python', 'php', 'Java']
     },
     {
       title: 'Database',
@@ -22,6 +22,11 @@ export default function About() {
   ];
 
   const education = [
+     {
+      degree: 'Bachelor of Commerce',
+      institution: 'Jv Jain College',
+      year: '2023 - 2026'
+    },
     {
       degree: 'Bachelor of Computer Applications',
       institution: 'Tilak Raj Chadha Institute Of Management and Technology',
