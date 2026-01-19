@@ -75,6 +75,17 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+/* Dark */
+body.dark {
+  background: #0f172a;
+  color: white;
+}
+
+/* Light */
+body.light {
+  background: #ffffff;
+  color: #111;
+}
 
 
 

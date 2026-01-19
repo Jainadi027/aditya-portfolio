@@ -1,0 +1,111 @@
+.experience-volunteer-container {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: 1;
+  background-color: #0a0e27;
+}
+
+.experience-volunteer-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
+  background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sections-container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap; 
+}
+
+.experience-section h2,
+.volunteer-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fbbf24;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(245, 158, 11, 0.3);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.experience-item,
+.volunteer-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.4s ease;
+}
+
+.experience-item:hover,
+.volunteer-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(245, 158, 11, 0.4);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(245, 158, 11, 0.2);
+}
+
+.experience-item h3,
+.volunteer-item h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item p,
+.volunteer-item p {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.experience-item p strong,
+.volunteer-item p strong {
+  color: #fbbf24;
+}
+
+.experience-section,
+.volunteer-section {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+@media (max-width: 992px) {
+  .sections-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-volunteer-container {
+    padding: 4rem 1rem;
+  }
+
+  .experience-volunteer-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .experience-section h2,
+  .volunteer-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .experience-item,
+  .volunteer-item {
+    padding: 1.5rem;
+  }
+}
