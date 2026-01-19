@@ -6,8 +6,6 @@ export default function ExperienceVolunteer() {
   return (
     <div className="experience-volunteer-container">
       <h1>Experience & Volunteer Work</h1>
-
-
       <section className="experience-section">
         <h2>Experience</h2>
         <div className="experience-item">
