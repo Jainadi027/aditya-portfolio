@@ -42,6 +42,11 @@ const certificatesData = [
     link: "https://www.linkedin.com/posts/adityajain027_certificate-for-data-analytics-visualization-activity-7220765266459213824-g0Zn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdseEsBh1Yhw_HMudEqrSgDSC7dv47EbNA"
   },
   {
+    name: "Full-Stack Web Development",
+    platform: " Udemy",
+    link: "https://www.linkedin.com/in/adityajain027/details/certifications/1768309877327/single-media-viewer/?profileId=ACoAADwiQ_UB4GdY67PH4Bu7BDERRJr5OmVWCvk"
+  },
+  {
     name: "Programming in Python",
     platform: "SWAYAM",
     link: "https://www.linkedin.com/in/adityajain027/details/certifications/1719441756052/single-media-viewer/?profileId=ACoAADwiQ_UB4GdY67PH4Bu7BDERRJr5OmVWCvk"
@@ -72,8 +77,6 @@ const Projects = () => {
   return (
     <section className="projects-wrapper">
       <div className="projects-container">
-
-       
         <div className="projects-heading">
           <h2 className="projects-title">My Projects</h2>
         </div>

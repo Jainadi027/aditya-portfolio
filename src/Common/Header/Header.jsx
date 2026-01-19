@@ -8,9 +8,7 @@ export default function Header() {
 
   return (
     <header className="header">
-
       <h2 className="logo">Aditya Jain</h2>
-
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         <span></span>
         <span></span>
@@ -21,8 +19,7 @@ export default function Header() {
         <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
         <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
         <Link to="/projects" onClick={() => setIsOpen(false)}>Projects & certificates</Link>
-        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Me</Link>
-       
+        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Me</Link>      
       </nav>
     </header>
   );

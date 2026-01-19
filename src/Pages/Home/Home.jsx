@@ -4,7 +4,6 @@ import Footer from "../../Common/Footer/Footer";
 import { Github, Linkedin, Mail, Download, Twitter } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import profileImage from '../../assets/ProfilePhoto.jpeg';
-
 import './Home.css';
 
 export default function Home() {
@@ -21,7 +20,6 @@ export default function Home() {
     <>
       <Header />
       <div className="home-wrapper">
-     
         <div className="animated-bg">
           <div className="gradient-orb orb-1"></div>
           <div className="gradient-orb orb-2"></div>
@@ -51,7 +49,6 @@ export default function Home() {
             View Projects
           </button>
                 </div>
-
                 <div className="social-bar">
   <a
     href="https://github.com/dashboard"
@@ -76,28 +73,25 @@ export default function Home() {
     rel="noopener noreferrer"
   >
     <Twitter size={22} />
-  </a>
-</div>
-</div>
-
+             </a>
+            </div>
+              </div>
               <div className="hero-image">
                 <div className="profile-card">
                   <div className="hero-image">
-  <div className="profile-wrapper">
+                  <div className="profile-wrapper">
     
-    <div className="profile-glow"></div>
-
-    <div className="profile-border">
-      <img 
-        src={profileImage} 
-        alt="Aditya Jain" 
-        className="profile-img" 
-      />
-    </div>
-
-  </div>
-</div>
-</div>
+                  <div className="profile-glow"></div>
+                 <div className="profile-border">
+                    <img 
+                    src={profileImage} 
+                    alt="Aditya Jain" 
+                    className="profile-img" 
+                     />
+                     </div>
+                       </div>
+                       </div>
+                         </div>
               </div>
             </div>
           </div>

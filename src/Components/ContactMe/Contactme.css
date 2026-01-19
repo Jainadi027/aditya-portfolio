@@ -1,5 +1,3 @@
-/* Contact.css */
-
 .contact-container {
   width: 100%;
   min-height: 100vh;
@@ -9,7 +7,6 @@
   overflow: hidden;
 }
 
-/* Animated Background Elements */
 .contact-container::before {
   content: '';
   position: absolute;
@@ -90,7 +87,6 @@
   line-height: 1.6;
 }
 
-/* Contact Details */
 .contact-details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
