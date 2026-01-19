@@ -235,3 +235,42 @@
 .footer-right {
   animation-delay: 0.3s;
 }
+
+@media (max-width: 640px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-center,
+  .footer-location-section,
+  .footer-right {
+    align-items: center;
+    text-align: center;
+  }
+
+  .quick-links {
+    align-items: center;
+  }
+
+  .quick-links li a {
+    padding-left: 0;
+  }
+
+  .quick-links li a::before {
+    display: none;
+  }
+
+  .social-links {
+    align-items: center;
+    width: 100%;
+  }
+
+  .social-links a {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-location {
+    justify-content: center;
+  }
+}

@@ -3,7 +3,7 @@ import Header from "../../Common/Header/Header";
 import Footer from "../../Common/Footer/Footer";
 import { Github, Linkedin, Mail, Download, Twitter } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import profileImage from '../../assets/ProfilePhoto.jpeg';
+import profileImage from '../../assets/ProfileImage.jpeg';
 import './Home.css';
 
 export default function Home() {
