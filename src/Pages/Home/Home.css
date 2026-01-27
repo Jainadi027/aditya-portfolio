@@ -700,6 +700,39 @@ overflow-x: hidden;
   }
 }
 
+/* ===================== MOBILE RESPONSIVE ===================== */
+
+/* Tablets: 992px and below */
+@media (max-width: 992px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .hero-image {
+    order: -1; /* move image above text */
+    margin-bottom: 2rem;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr 1fr; /* 2 cards per row */
+  }
+
+  .hero-description {
+    max-width: 100%; /* full width */
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .profile-wrapper {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/* Medium devices: 768px and below */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
@@ -709,33 +742,169 @@ overflow-x: hidden;
     font-size: 1.2rem;
   }
 
+  .hero-description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   .section-title {
     font-size: 2rem;
   }
 
+  .section-tag {
+    font-size: 1.4rem;
+    padding: 0.4rem 1rem;
+  }
+
   .hero-actions {
     flex-direction: column;
+    gap: 0.75rem;
   }
 
   .btn {
     width: 100%;
-    justify-content: center;
+    font-size: 0.95rem;
+    padding: 0.8rem 1rem;
   }
 
   .avatar-circle {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-wrapper {
+    width: 180px;
+    height: 180px;
   }
 
   .avatar-text {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .cta-content {
-    padding: 3rem 2rem;
+    padding: 2.5rem 1.5rem;
   }
 
   .cta-title {
+    font-size: 1.8rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices: 576px and below */
+@media (max-width: 576px) {
+  .hero-title {
     font-size: 2rem;
   }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-tag {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr; /* stack all cards vertically */
+    gap: 1.5rem;
+  }
+
+  .avatar-circle,
+  .profile-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+
+  .avatar-text {
+    font-size: 2.5rem;
+  }
+
+  .cta-title {
+    font-size: 1.6rem;
+  }
+
+  .cta-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra-small devices: 400px and below */
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.7rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .avatar-circle,
+  .profile-wrapper {
+    width: 130px;
+    height: 130px;
+  }
+
+  .avatar-text {
+    font-size: 2rem;
+  }
+
+  .cta-content {
+    padding: 2rem 1rem;
+  }
+
+  .cta-title {
+    font-size: 1.4rem;
+  }
+
+  .cta-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra adjustments for spacing */
+.hero-actions a,
+.hero-actions button {
+  min-width: 150px;
+}
+
+.social-bar {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.profile-glow {
+  filter: blur(30px); /* smaller glow on mobile */
+}
+
+.gradient-orb {
+  filter: blur(60px);
+  opacity: 0.2;
 }
