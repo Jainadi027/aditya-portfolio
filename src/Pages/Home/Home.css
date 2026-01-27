@@ -16,6 +16,7 @@
   background: #0a0e27;
 overflow-x: hidden;   
   overflow-y: visible;
+    padding-top: 80px;
 }
 .profile-wrapper {
   position: relative;
@@ -160,6 +161,7 @@ overflow-x: hidden;
   min-height: 100vh;
   display: flex;
   align-items: center;
+    padding-top: 7rem;
   padding: 4rem 0;
   position: relative;
 }
