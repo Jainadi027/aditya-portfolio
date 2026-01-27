@@ -23,12 +23,12 @@ export default function About() {
 
   const education = [
      {
-      degree: 'Bachelor of Commerce',
+      degree: 'Bachelor of Commerce (B.Com)',
       institution: 'Jv Jain College,Saharnpur (Affiliated from Maa Shakumbhari University) ',
       year: 'July 2023 - July 2026'
     },
     {
-      degree: 'Bachelor of Computer Applications',
+      degree: 'Bachelor of Computer Applications (BCA)',
       institution: 'Tilak Raj Chadha Institute Of Management and Technology,Yamunanagar (Affiliated from Kurukshetra University)',
       year: 'August 2022 -  july 2025'
     },
