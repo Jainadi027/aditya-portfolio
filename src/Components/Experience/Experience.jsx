@@ -35,9 +35,11 @@ export default function ExperienceVolunteer() {
           <p><strong>Role:</strong> As a Tech Warrior member, organized several coding events, hackathons, and workshops. Coordinated team activities, mentored participants, and managed event logistics to make sessions engaging and informative.</p>
           <p>
           <strong>Highlights:</strong><br/>
+         Event Organizer: Volunteered as an event organizer, managing planning, coordination, and on-ground execution of college events.<br/>
+         BCA Representative: Served as the BCA class representative, acting as a liaison between students and faculty.<br/>
          - Organized multiple coding competitions and hackathons.<br/>
          - Conducted workshops on programming and web development.<br/>
-         - Collaborated with peers to implement innovative and interactive sessions.
+         - Collaborated with peers to implement innovative and interactive sessions.<br/>
          </p>
         </div> 
       </section>

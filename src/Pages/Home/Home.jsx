@@ -4,6 +4,8 @@ import Footer from "../../Common/Footer/Footer";
 import { Github, Linkedin, Mail, Download, Twitter } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import profileImage from '../../assets/ProfileImage.jpeg';
+import cvFile from '../../assets/adityaresume.pdf';
+
 import './Home.css';
 
 export default function Home() {
@@ -47,10 +49,16 @@ export default function Home() {
                    and neither do I.
                    </p>      
                    <div className="hero-actions">
-                   <button className="btn btn-primary">
-                    <Download size={20} />
-                    Download CV
-                  </button>
+                   <a
+                       href={cvFile}
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="btn btn-primary"
+                       >
+                       <Download size={20} />
+                       Download CV
+                      </a>
+
                   <button className="btn btn-outline" onClick={goToProjects}>
             View Projects
           </button>
