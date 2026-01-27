@@ -11,7 +11,8 @@
   width: 100%;
   position: relative;
   background: #0a0e27;
-
+overflow-x: hidden;   
+  overflow-y: visible;
 }
 .profile-wrapper {
   position: relative;
