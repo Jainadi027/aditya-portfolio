@@ -13,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* LINKS */
 a {
   font-weight: 500;
   color: #646cff;
@@ -23,21 +22,18 @@ a:hover {
   color: #535bf2;
 }
 
-/* BODY */
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
 
-/* ROOT WRAPPER */
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* LAYOUT HELPERS */
 .app-layout {
   min-height: 100vh;
   display: flex;
@@ -45,16 +41,14 @@ body {
 }
 
 .page-content {
-  flex: 1; /* pushes footer to bottom */
+  flex: 1; 
 }
 
-/* HEADINGS */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-/* BUTTONS */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -75,13 +69,12 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-/* Dark */
+
 body.dark {
   background: #0f172a;
   color: white;
 }
 
-/* Light */
 body.light {
   background: #ffffff;
   color: #111;
