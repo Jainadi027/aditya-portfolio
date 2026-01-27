@@ -235,6 +235,33 @@
 .footer-right {
   animation-delay: 0.3s;
 }
+.footer.dark {
+  background: #0a0e27;
+  color: #ffffff;
+}
+
+.footer.dark a {
+  color: #fbbf24;
+}
+
+.footer.dark a:hover {
+  color: #ffffff;
+  background: rgba(245, 158, 11, 0.2);
+}
+
+.footer.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.footer.light a {
+  color: #0f172a;
+}
+
+.footer.light a:hover {
+  color: #ffffff;
+  background: #0f172a;
+}
 
 @media (max-width: 640px) {
   .footer {

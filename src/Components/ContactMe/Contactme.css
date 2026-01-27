@@ -132,7 +132,6 @@
   color: #fbbf24;
 }
 
-/* Contact Form */
 .contact-form {
   margin-top: 3rem;
 }
@@ -217,7 +216,6 @@
   transform: translateY(-1px);
 }
 
-/* Success and Error Messages */
 .success-message,
 .error-message {
   margin-top: 1.5rem;
@@ -227,6 +225,67 @@
   font-weight: 600;
   text-align: center;
   animation: slideIn 0.3s ease-out;
+}
+
+.contact-container.dark {
+  background: #0a0e27;
+  color: #ffffff;
+}
+
+.contact-container.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.contact-container.dark .contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-container.light .contact-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact-container.light .contact-subtitle,
+.contact-container.light a {
+  color: #334155;
+}
+
+.contact-container.dark .contact-icon {
+  color: #f59e0b;
+}
+
+.contact-container.light .contact-icon {
+  color: #0f172a;
+}
+
+.contact-container.dark input,
+.contact-container.dark textarea {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-container.light input,
+.contact-container.light textarea {
+  background: #ffffff;
+  color: #0f172a;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-container.dark .contact-btn {
+  background: #f59e0b;
+  color: #ffffff;
+}
+
+.contact-container.light .contact-btn {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
 }
 
 @keyframes slideIn {
@@ -252,7 +311,6 @@
   color: #f87171;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .contact-container {
     padding: 4rem 1.5rem;

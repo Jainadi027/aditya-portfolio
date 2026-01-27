@@ -13,7 +13,6 @@
   z-index: 1;
 }
 
-/* Section Heading */
 .projects-heading {
   text-align: center;
   margin-bottom: 4rem;
@@ -33,14 +32,12 @@
   margin-top: 1rem;
 }
 
-/* Projects Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
 
-/* Project Card */
 .project-card {
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(10px);
@@ -70,7 +67,6 @@
   transform: translateY(-12px);
   border-color: rgba(245, 158, 11, 0.6);
 }
-
 
 .project-title {
   font-size: 1.6rem;
@@ -108,7 +104,6 @@
   border-color: rgba(245, 158, 11, 0.7);
   transform: translateY(-3px);
 }
-
 
 .project-links {
   display: flex;
@@ -224,8 +219,86 @@
   z-index: 2;
 }
 
+.projects-wrapper.dark {
+  background: #0a0e27;
+  color: #ffffff;
+}
 
-/* Responsive */
+.projects-wrapper.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.projects-wrapper.light .projects-title {
+  color: #0f172a !important
+}
+
+.project-card,
+.certificate-card {
+  border-radius: 20px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.projects-wrapper.dark .project-card,
+.projects-wrapper.dark .certificate-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projects-wrapper.light .project-card,
+.projects-wrapper.light .certificate-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.projects-wrapper.light .project-desc,
+.projects-wrapper.light p {
+  color: #334155;
+}
+
+.projects-wrapper.dark .tech-badge {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+}
+
+.projects-wrapper.light .tech-badge {
+  background: rgba(245, 158, 11, 0.2);
+  color: #92400e;
+}
+.projects-wrapper.light .project-title,
+.projects-wrapper.light .certificate-card h3 {
+  color: #000000;
+}
+
+.project-btn,
+.certificate-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.projects-wrapper.dark .project-btn,
+.projects-wrapper.dark .certificate-btn {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.projects-wrapper.light .project-btn,
+.projects-wrapper.light .certificate-btn {
+  background: #0f172a;
+  color: #fff;
+}
+
+.project-btn:hover,
+.certificate-btn:hover {
+  transform: translateY(-2px);
+}
+
 @media (max-width: 992px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);

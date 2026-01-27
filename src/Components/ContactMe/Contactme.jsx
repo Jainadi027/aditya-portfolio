@@ -4,8 +4,10 @@ import {  Twitter } from 'lucide-react';
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contactme.css";
+import { useTheme } from "../../ThemeContext/ThemeContext";
 
 export default function ContactMe() {
+    const { theme } = useTheme();
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState(""); 
@@ -36,8 +38,8 @@ export default function ContactMe() {
       });
   };
 
-  return (
-    <section id="contactMe" className="contact-container">
+  return ( 
+     <section id="contactMe" className={`contact-container ${theme}`}>
       <div className="contact-card">
         <h2 className="contact-title">Contact Me</h2>
 

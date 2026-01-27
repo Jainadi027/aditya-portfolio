@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import { useTheme } from "../../ThemeContext/ThemeContext";
 
 const projectData = [
   {
@@ -86,8 +87,9 @@ const certificatesData = [
 ];
 
 const Projects = () => {
+    const { theme } = useTheme();
   return (
-    <section className="projects-wrapper">
+    <section className={`projects-wrapper ${theme}`}>
       <div className="projects-container">
         <div className="projects-heading">
           <h2 className="projects-title">My Projects</h2>

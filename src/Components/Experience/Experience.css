@@ -83,6 +83,52 @@
   min-width: 300px;
 }
 
+.experience-volunteer-container.dark {
+  background: #0a0e27;
+  color: #ffffff;
+}
+
+.experience-volunteer-container.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.experience-volunteer-container.light h1,
+.experience-volunteer-container.light h2,
+.experience-volunteer-container.light h3 {
+  color: #0f172a;
+}
+
+.experience-volunteer-container.light p {
+  color: #334155;
+}
+
+.experience-volunteer-container .experience-item,
+.experience-volunteer-container .volunteer-item {
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.experience-volunteer-container.dark .experience-item,
+.experience-volunteer-container.dark .volunteer-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience-volunteer-container.light .experience-item,
+.experience-volunteer-container.light .volunteer-item {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.experience-section,
+.volunteer-section {
+  margin-top: 3rem;
+}
+
+
 @media (max-width: 992px) {
   .sections-container {
     flex-direction: column;

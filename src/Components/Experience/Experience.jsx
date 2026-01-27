@@ -1,10 +1,11 @@
 import React from "react";
 import "./Experience.css"; 
-
+import { useTheme } from "../../ThemeContext/ThemeContext";
 
 export default function ExperienceVolunteer() {
+    const { theme } = useTheme();
   return (
-    <div className="experience-volunteer-container">
+     <div className={`experience-volunteer-container ${theme}`}>
       <h1>Experience & Volunteer Work</h1>
       <section className="experience-section">
         <h2>Experience</h2>
@@ -22,7 +23,6 @@ export default function ExperienceVolunteer() {
           <p><strong>Duration:</strong> June 2024 - August 2025</p>
           <p><strong>Role:</strong> Developed responsive and user-friendly web pages using HTML, CSS, and JavaScript.Assisted in implementing React components for interactive UI elements.Collaborated with the design team to improve UI/UX design consistency.Participated in code reviews and optimized front-end performance.</p>
         </div>
-
       </div>
       </section>
 

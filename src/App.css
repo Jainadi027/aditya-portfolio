@@ -23,6 +23,48 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark a {
+  color: #ffffff;
+}
+
+body.dark .btn-primary {
+  background-color: #667eea;
+  color: #fff;
+}
+
+body.dark .btn-outline {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+body.light {
+  background-color: #f5f5f5;
+  color: #121212;
+}
+
+body.light a {
+  color: #121212;
+}
+
+body.light .btn-primary {
+  background-color: #764ba2;
+  color: #fff;
+}
+
+body.light .btn-outline {
+  border: 1px solid #121212;
+  color: #121212;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

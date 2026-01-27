@@ -5,11 +5,12 @@ import { Github, Linkedin, Mail, Download, Twitter } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import profileImage from '../../assets/ProfileImage.jpeg';
 import cvFile from '../../assets/adityaresume.pdf';
-
+import { useTheme } from '../../ThemeContext/ThemeContext';
 import './Home.css';
 
 export default function Home() {
   const navigate = useNavigate();
+   const { theme, toggleTheme } = useTheme();
   const goToProjects = () => {
     navigate('/projects');
   };
@@ -20,7 +21,28 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="home-wrapper">
+       <div
+        className="home-theme-toggle"
+        style={{ textAlign: 'right', padding: '1rem 5%' }}
+      >
+        <button
+          onClick={toggleTheme}
+          className={`theme-toggle ${theme}`}
+          style={{
+            padding: '6px 14px',
+            borderRadius: '20px',
+            border: '1px solid rgba(0,0,0,0.3)',
+            cursor: 'pointer',
+            background: theme === 'dark' ? '#ffffff' : '#121212',
+            color: theme === 'dark' ? '#121212' : '#ffffff',
+            fontWeight: 'bold',
+            transition: 'all 0.3s ease',
+          }}
+        >
+          {theme === 'dark' ? '☀ Light Mode' : '🌙 Dark Mode'}
+        </button>
+      </div>
+           <div className={`home-wrapper ${theme}`}>
         <div className="animated-bg">
           <div className="gradient-orb orb-1"></div>
           <div className="gradient-orb orb-2"></div>

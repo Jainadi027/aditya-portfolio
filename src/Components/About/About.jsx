@@ -1,7 +1,9 @@
 import { Code, Palette, Rocket, GraduationCap,MapPin,Mail,Phone,Download} from 'lucide-react';
 import './About.css';
+import { useTheme } from '../../ThemeContext/ThemeContext';
 
 export default function About() {
+    const { theme } = useTheme();
   const skillCategories = [
     {
       title: 'Frontend Skills',
@@ -42,7 +44,7 @@ export default function About() {
   return (
     <>
     
-      <div className="about-wrapper">
+       <div className={`about-wrapper ${theme}`}>
        
         <div className="about-bg">
           <div className="gradient-sphere sphere-1"></div>
