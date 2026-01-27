@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
+import {  Twitter } from 'lucide-react';
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contactme.css";
@@ -67,8 +68,8 @@ export default function ContactMe() {
           </div>
 
           <div className="contact-item">
-            <FaPhone size={26} className="contact-icon" />
-            <a href="tel:+919758835072">+91 9758835072</a>
+            <Twitter size={26} className="contact-icon" />
+            <a href="https://x.com/jainadi027">Twitter.com/adityajain</a>
           </div>
         </div>
 

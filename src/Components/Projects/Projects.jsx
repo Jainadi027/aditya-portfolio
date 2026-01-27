@@ -31,7 +31,19 @@ const projectData = [
     desc: "Integrated weather API to fetch real-time data.",
     tech: ["HTML", "CSS", "Javascript"],
     github: "https://github.com/Jainadi027/WEB-DEVELOPMENT-PROJECTS/tree/main/Whether%20App",
-  }
+  },
+   {
+    title: "Job-Portal",
+    desc: "Built a scalable job portal web application featuring JWT authentication, secure APIs, and role-based access control",
+    tech: ["Node.js", "Express.js", "MongoDb", "JWT authentication"],
+    github: "https://github.com/Jainadi027/Job-Application/tree/main/Job-portal",
+  },
+  {
+    title: "Flight Management System",
+    desc: "This is a database management system (DBMS) project for managing flights, passengers, tickets, transactions, and related entities.",
+    tech: ["Database Design", "MySQL"],
+    github: "https://github.com/Jainadi027/Flight-Mangement-System",
+  },
 ];
 
 

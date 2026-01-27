@@ -34,7 +34,7 @@ export default function ExperienceVolunteer() {
           <p><strong>Duration:</strong>February 2023 - Present</p>
           <p><strong>Role:</strong> As a Tech Warrior member, organized several coding events, hackathons, and workshops. Coordinated team activities, mentored participants, and managed event logistics to make sessions engaging and informative.</p>
           <p>
-          <strong>Highlights:</strong>  
+          <strong>Highlights:</strong><br/>
          - Organized multiple coding competitions and hackathons.<br/>
          - Conducted workshops on programming and web development.<br/>
          - Collaborated with peers to implement innovative and interactive sessions.

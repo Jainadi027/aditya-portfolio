@@ -8,7 +8,6 @@ import './Home.css';
 
 export default function Home() {
   const navigate = useNavigate();
-
   const goToProjects = () => {
     navigate('/projects');
   };
@@ -34,14 +33,21 @@ export default function Home() {
                 <h1 className="hero-title">
                   Hello, I'm <span className="highlight">Aditya Jain</span>
                 </h1>
-                <p className="hero-subtitle">Full Stack Developer & UI/UX Enthusiast</p>
+                <p className="hero-subtitle">Turning Concepts into Click-Worthy Creations</p>
                 <p className="hero-description">
-                  Crafting pixel-perfect, high-performance web applications with cutting-edge 
-                  technologies. I bring ideas to life through clean code and intuitive design.
-                </p>
-                
-                <div className="hero-actions">
-                  <button className="btn btn-primary">
+                   From wireframes to live websites, I design and develop experiences that feel 
+                   smooth, smart, and engaging. Every pixel tells a story, every line of code 
+                   adds value.
+                    <br /><br />
+                   Driven by curiosity and creativity, I love experimenting with modern 
+                   technologies to build user-friendly interfaces that leave a lasting 
+                   impression.
+                   <br /><br />
+                   Always learning, always evolving — because the web never stops growing, 
+                   and neither do I.
+                   </p>      
+                   <div className="hero-actions">
+                   <button className="btn btn-primary">
                     <Download size={20} />
                     Download CV
                   </button>

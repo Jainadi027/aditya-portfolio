@@ -24,18 +24,18 @@ export default function About() {
   const education = [
      {
       degree: 'Bachelor of Commerce',
-      institution: 'Jv Jain College',
-      year: '2023 - 2026'
+      institution: 'Jv Jain College,Saharnpur (Affiliated from Maa Shakumbhari University) ',
+      year: 'July 2023 - July 2026'
     },
     {
       degree: 'Bachelor of Computer Applications',
-      institution: 'Tilak Raj Chadha Institute Of Management and Technology',
-      year: '2022 - 2025'
+      institution: 'Tilak Raj Chadha Institute Of Management and Technology,Yamunanagar (Affiliated from Kurukshetra University)',
+      year: 'August 2022 -  july 2025'
     },
     {
       degree: 'Senior Secondary (Class 12th)',
       institution: 'S.R. D.A.V Public School, Saharanpur',
-      year: '2021-2022',
+      year: 'April 2021- June 2022',
     }
   ];
 
