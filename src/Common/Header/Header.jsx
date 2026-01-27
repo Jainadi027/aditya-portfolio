@@ -10,7 +10,9 @@ export default function Header() {
 
   return (
     <header className={`header ${theme}`}>
-      <h2 className="logo">Aditya Jain</h2>
+     <Link to="/" onClick={() => setIsOpen(false)}>
+          Aditya Jain
+        </Link>
 
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         <span></span>
