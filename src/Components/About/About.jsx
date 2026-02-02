@@ -26,7 +26,7 @@ export default function About() {
   const education = [
      {
       degree: 'Bachelor of Commerce (B.Com)',
-      institution: 'Jv Jain College,Saharnpur (Affiliated from Maa Shakumbhari University) ',
+      institution: 'Jv Jain College,Saharanpur (Affiliated from Maa Shakumbhari University) ',
       year: 'July 2023 - July 2026'
     },
     {

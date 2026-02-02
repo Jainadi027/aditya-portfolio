@@ -47,16 +47,15 @@ const projectData = [
   },
 ];
 
-
 const certificatesData = [
   {
     name: "Data Analytics and Visualization Job",
-    platform: " Accenture",
+    platform: "Accenture",
     link: "https://www.linkedin.com/posts/adityajain027_certificate-for-data-analytics-visualization-activity-7220765266459213824-g0Zn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdseEsBh1Yhw_HMudEqrSgDSC7dv47EbNA"
   },
   {
     name: "Full-Stack Web Development",
-    platform: " Udemy",
+    platform: "Udemy",
     link: "https://www.linkedin.com/in/adityajain027/details/certifications/1768309877327/single-media-viewer/?profileId=ACoAADwiQ_UB4GdY67PH4Bu7BDERRJr5OmVWCvk"
   },
   {
@@ -76,12 +75,12 @@ const certificatesData = [
   },
    {
     name: "JavaScript & React Workshop",
-    platform: " Indian Institute of Technology, Kanpur",
+    platform: "Indian Institute of Technology, Kanpur",
     link: "https://verify.eicta.digitalcredentials.in/621cdb87-2447-4de2-90d7-89c43bb0ded7"
   },
     {
     name: "KAVACH Guiding Session",
-    platform: " AR Club",
+    platform:"AR Club",
     link: "https://www.linkedin.com/posts/adityajain027_here-is-my-another-certificate-for-participating-activity-7048675142482231296-svn-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdseEsBh1Yhw_HMudEqrSgDSC7dv47EbNA"
   }
 ];
