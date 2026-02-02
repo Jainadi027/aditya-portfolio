@@ -29,7 +29,6 @@ export default function ExperienceVolunteer() {
       <section className="volunteer-section">
   <h2>Volunteer Work</h2>
 
-  {/* Technical Club */}
   <div className="volunteer-item">
     <h3>Event Organizer (Tech Warriors)</h3>
     <p><strong>Organization:</strong> Technical Club, TIMT</p>
